@@ -36,16 +36,15 @@ Given a fingerprint image, model identifies a fingerprint match from a set of te
     
 ## Model Architecture
 Model is a siamese neural network with pre-trained ResNet50 as feature extractor<p>
-<p>
 ![alt text](https://github.com/techbossmb/FingerPrintMatching/blob/master/readme/model_architecture.JPG?raw=true)
 
 ## Training and Validation Loss
 Tensorboard  - Training and Validation cross entropy loss<p>
 <p>
-![alt text](https://git.toptal.com/screening/isaac-ishola/raw/master/readme/binarycrossentropy_graph.PNG)
+![alt text](https://github.com/techbossmb/FingerPrintMatching/blob/master/readme/binarycrossentropy_graph.PNG?raw=true)
 
 ## Sample Command Output
 After the training completes, the validation metrics is outputed to stdout <p>
-![alt text](https://git.toptal.com/screening/isaac-ishola/raw/master/readme/training_result.PNG)<p>
+![alt text](https://github.com/techbossmb/FingerPrintMatching/blob/master/readme/training_result.PNG?raw=true)<p>
 Result of fingerprint match<p>
-![alt text](https://git.toptal.com/screening/isaac-ishola/raw/master/readme/fingerprintmatch_result.PNG)
+![alt text](https://github.com/techbossmb/FingerPrintMatching/blob/master/readme/fingerprintmatch_result.PNG?raw=true)

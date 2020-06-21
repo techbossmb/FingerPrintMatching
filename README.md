@@ -40,7 +40,6 @@ Model is a siamese neural network with pre-trained ResNet50 as feature extractor
 
 ## Training and Validation Loss
 Tensorboard  - Training and Validation cross entropy loss<p>
-<p>
 ![alt text](https://github.com/techbossmb/FingerPrintMatching/blob/master/readme/binarycrossentropy_graph.PNG?raw=true)
 
 ## Sample Command Output

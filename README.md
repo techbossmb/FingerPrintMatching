@@ -1,9 +1,9 @@
 # Fingerprint Recognition with Siamese Network
-Given a fingerprint image, model identifies a fingerprint match from a set of templates (Fingerprint DB) with the highest likelihood.
+Given a fingerprint image, model identifies a match from a database of fingerprints.
 
 ## Procedure
 + Training Fingerprint  Model<p>
-    Given a set of fingerprint images, train a siamese network to identify similar <p>
+    Siamese network is trained on a datastore of fingerprint images from different people. Each fingerprint is a set of 10 prints from each finger<p>
     Fingerprints used during training are stored for future matching. To reduce computational time, we store only the extracted (intermediate) features. <p>
     Model is trained, validated and stored. <p>
     Model training code is in <code> code/train.py </code>.  <p>

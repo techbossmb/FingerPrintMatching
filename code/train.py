@@ -40,7 +40,7 @@ class  ModelBuilder:
         return trfeatures_one, trfeatures_two, trlabels, valfeatures_one, valfeatures_two, vallabels
 
 
-    def trainData(self):
+    def trainModel(self):
 
         trfeatures_one, trfeatures_two, trlabels, valfeatures_one, valfeatures_two, vallabels = self.loadData()
 
@@ -64,4 +64,4 @@ class  ModelBuilder:
 if __name__=='__main__':
      imagedir = '..{0}data{0}images'.format(os.sep)
     modelBuilder = ModelBuilder(imagedir)
-    modelBuilder.trainData()
+    modelBuilder.trainModel()

@@ -13,7 +13,7 @@ Given a fingerprint image, model identifies a match from a database of fingerpri
 
     imagedir = '..{0}data{0}images'.format(os.sep)
     modelBuilder = ModelBuilder(imagedir)
-    modelBilder.trainData()
+    modelBilder.trainModel()
     ```
     
     
